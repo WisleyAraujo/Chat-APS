@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>ChatJs - Front End</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="historico_mensagens"></div>
+        <form id="chat">
+            <input type='text' id='texto_mensagens' name='texto_mensagens' />
+            <input type='submit' value='Enviar Mensagem!' />
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+
+</body>
+
+</html>
